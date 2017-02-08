@@ -21,7 +21,7 @@ class Ivaouser
 
     public function getToken()
     {
-        return $this->token;
+        return $this->ivaotoken;
     }
     public function setToken($token){
         $this->ivaotoken = $token;
