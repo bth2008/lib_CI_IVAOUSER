@@ -59,3 +59,10 @@ the Pilot.php controller:
         var_dump($this->session->ivaodata);
     }
 ```
+the login_form.php view file:
+```
+<?php
+    $url = $this->ivaouser->generateLoginUrl('/login');
+?>
+<a href="<?=$url?>">LOGIN</a>
+```
