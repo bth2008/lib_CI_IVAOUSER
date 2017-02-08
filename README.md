@@ -5,7 +5,7 @@ the Ivaouser helper library to CodeIgniter framework software
 1. Place Ivaouser.php in your application/libraries folder
 2. Add 'ivaouser' to autoload.php in array with libraries:
     
-    $autoload['libraries'] = array('session',...,'ivaouser',...);
+    `$autoload['libraries'] = array('session',...,'ivaouser',...);`
 
 3. Use it as provide in example
 
